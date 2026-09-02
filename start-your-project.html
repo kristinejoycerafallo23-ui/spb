@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Start Your Project | Saratoga Premier Builders</title>
+<meta name="description" content="Tell us about your property and vision. Saratoga Premier Builders will review your project details and reach out about next steps for your custom barndominium or construction project.">
+<link rel="canonical" href="https://saratogapremierbuilders.com/start-your-project">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header id="siteHeader" class="scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">SARATOGA <span>PREMIER BUILDERS</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="barndominiums.html">Barndominiums</a>
+      <a href="barndominium-models.html">Models</a>
+      <a href="services.html">Services</a>
+      <a href="index.html#process">Our Process</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="start-your-project.html" class="btn btn-primary">Start Your Project</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div style="height:110px; background:var(--navy);"></div>
+  <!-- ============ SECTION 15 — LEAD FORM ============ -->
+  <section id="start" class="section-dark">
+    <div class="wrap" style="text-align:center;">
+      <div class="label">Get Started</div>
+      <h2 class="h-lg" style="color:#fff; margin-top:14px;">Tell us what you're building.</h2>
+      <p class="lede" style="margin:16px auto 0; max-width:56ch;">Tell us a little about your property and vision. We'll use your answers to understand whether we're a good fit and what the next step should be.</p>
+    </div>
+
+    <form class="form-wrap" id="leadForm" novalidate>
+      <div class="form-progress">
+        <div class="dot active" data-dot="1"></div>
+        <div class="dot" data-dot="2"></div>
+        <div class="dot" data-dot="3"></div>
+        <div class="dot" data-dot="4"></div>
+        <div class="dot" data-dot="5"></div>
+      </div>
+      <div class="form-step-label"><span id="stepLabel">Step 1 of 5</span></div>
+
+      <div id="formBody">
+        <!-- STEP 1 -->
+        <div class="form-step active" data-step="1">
+          <h3>What are you looking to build?</h3>
+          <div class="opt-grid">
+            <label class="opt"><input type="checkbox" name="interest" value="Custom Barndominium"> Custom Barndominium</label>
+            <label class="opt"><input type="checkbox" name="interest" value="Custom Home"> Custom Home</label>
+            <label class="opt"><input type="checkbox" name="interest" value="Metal-Framed Building"> Metal-Framed Building</label>
+            <label class="opt"><input type="checkbox" name="interest" value="Masonry / Concrete"> Masonry / Concrete</label>
+            <label class="opt"><input type="checkbox" name="interest" value="Renovation"> Renovation</label>
+            <label class="opt"><input type="checkbox" name="interest" value="Development"> Development</label>
+            <label class="opt"><input type="checkbox" name="interest" value="HVAC"> HVAC</label>
+          </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="form-step" data-step="2">
+          <h3>Tell us about the property.</h3>
+          <div class="field">
+            <label>Do you already own the property?</label>
+            <div class="opt-grid">
+              <label class="opt"><input type="radio" name="ownership" value="Yes"> Yes</label>
+              <label class="opt"><input type="radio" name="ownership" value="No"> No</label>
+              <label class="opt"><input type="radio" name="ownership" value="Under Contract"> Under Contract</label>
+              <label class="opt"><input type="radio" name="ownership" value="Looking for Property"> Looking for Property</label>
+            </div>
+          </div>
+          <div class="field"><label>Property Location / Town *</label><input type="text" name="location" required></div>
+          <div class="field"><label>Approximate Lot Size</label><input type="text" name="lotSize" placeholder="e.g. 5 acres"></div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="form-step" data-step="3">
+          <h3>Tell us about the home.</h3>
+          <div class="field">
+            <label>Desired Home / Building Size</label>
+            <select name="size">
+              <option value="">Select one</option>
+              <option>Under 2,000 sq ft</option>
+              <option>2,000–3,000 sq ft</option>
+              <option>3,000–4,000 sq ft</option>
+              <option>4,000–5,000 sq ft</option>
+              <option>5,000+ sq ft</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Preferred Style</label>
+            <div class="opt-grid">
+              <label class="opt"><input type="radio" name="style" value="Modern"> Modern</label>
+              <label class="opt"><input type="radio" name="style" value="Rustic"> Rustic</label>
+              <label class="opt"><input type="radio" name="style" value="Modern Farmhouse"> Modern Farmhouse</label>
+              <label class="opt"><input type="radio" name="style" value="Traditional Barn"> Traditional Barn</label>
+              <label class="opt"><input type="radio" name="style" value="Luxury / Estate"> Luxury / Estate</label>
+              <label class="opt"><input type="radio" name="style" value="Not Sure"> Not Sure</label>
+            </div>
+          </div>
+          <div class="field">
+            <label>What are your must-have features?</label>
+            <textarea name="features" rows="3" placeholder="e.g. large garage, pool, L-shaped design, screened porch, guest suite..."></textarea>
+          </div>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="form-step" data-step="4">
+          <h3>Timeline &amp; budget.</h3>
+          <div class="field">
+            <label>When are you hoping to start?</label>
+            <div class="opt-grid">
+              <label class="opt"><input type="radio" name="timeline" value="ASAP"> ASAP</label>
+              <label class="opt"><input type="radio" name="timeline" value="3–6 months"> 3–6 months</label>
+              <label class="opt"><input type="radio" name="timeline" value="6–12 months"> 6–12 months</label>
+              <label class="opt"><input type="radio" name="timeline" value="12+ months"> 12+ months</label>
+              <label class="opt"><input type="radio" name="timeline" value="Just researching"> Just researching</label>
+            </div>
+          </div>
+          <div class="field">
+            <label>Approximate project budget</label>
+            <select name="budget">
+              <option value="">Select one</option>
+              <option>Under $500K</option>
+              <option>$500K–$750K</option>
+              <option>$750K–$1M</option>
+              <option>$1M–$1.5M</option>
+              <option>$1.5M+</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="form-step" data-step="5">
+          <h3>How can we reach you?</h3>
+          <div class="row2">
+            <div class="field"><label>First Name *</label><input type="text" name="firstName" required></div>
+            <div class="field"><label>Last Name *</label><input type="text" name="lastName" required></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label>Email *</label><input type="email" name="email" required></div>
+            <div class="field"><label>Phone *</label><input type="tel" name="phone" required></div>
+          </div>
+          <div class="field"><label>Tell us about your project</label><textarea name="notes" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <div class="form-nav">
+        <button type="button" class="btn-back" id="btnBack" style="visibility:hidden;">← Back</button>
+        <button type="button" class="btn btn-primary" id="btnNext">Continue</button>
+      </div>
+      <p class="privacy-note">Your information is used only to respond to your project inquiry.</p>
+
+      <div class="success-panel" id="successPanel">
+        <h3 style="margin-bottom:12px;">Your project just took the first step.</h3>
+        <p style="color:var(--muted); font-size:14.5px;">We received your information. Our team will review your project details and reach out regarding next steps.</p>
+        <a href="barndominiums.html" class="btn btn-outline-dark" style="margin-top:24px;">Explore Barndominiums</a>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h5>Saratoga Premier Builders</h5>
+        <p style="font-size:13px; max-width:32ch; color:#8CA0AD;">Custom barndominiums, masonry, metal-framed buildings, renovations, HVAC and aircraft cleaning — serving New York's Capital Region.</p>
+      </div>
+      <div>
+        <h5>Capabilities</h5>
+        <ul>
+          <li><a href="barndominiums.html">Custom Barndominiums</a></li>
+          <li><a href="services.html">Custom Masonry &amp; Concrete</a></li>
+          <li><a href="services.html">Metal-Framed Buildings</a></li>
+          <li><a href="services.html">Renovations &amp; Developments</a></li>
+          <li><a href="hvac.html">HVAC</a></li>
+          <li><a href="aircraft-cleaning.html">Aircraft Cleaning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="barndominium-models.html">Models</a></li>
+          <li><a href="index.html#process">Our Process</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="employment.html">Employment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:15186333308">518-633-3308</a></li>
+          <li><a href="mailto:sales@saratogapremierbuilders.com">sales@saratogapremierbuilders.com</a></li>
+          <li>3031 State Route 40<br>Greenwich, NY 12834</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom" style="flex-direction:column; align-items:flex-start; gap:8px;">
+      <p style="font-size:11px; color:#6E7F8C; max-width:70ch; margin:0;">Some imagery on this site reflects AI-generated design concepts or third-party reference plans, not photographs of completed Saratoga Premier Builders projects. Completed work is labeled accordingly.</p>
+      <div style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:8px;">
+        <span>© 2026 Saratoga Premier Builders. All rights reserved.</span>
+        <span>Saratoga County · New York Capital Region</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
