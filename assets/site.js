@@ -168,6 +168,23 @@ if (leadForm) {
     return true;
   }
 
+  function updateSuccessCta() {
+    const interests = Array.from(document.querySelectorAll('input[name="interest"]:checked')).map(el => el.value);
+    const cta = document.getElementById('successCta');
+    if (!cta) return;
+
+    if (interests.includes('Custom Barndominium')) {
+      cta.href = 'barndominiums.html';
+      cta.textContent = 'Explore Barndominiums';
+    } else if (interests.includes('HVAC') && interests.length === 1) {
+      cta.href = 'hvac.html';
+      cta.textContent = 'Explore HVAC Services';
+    } else {
+      cta.href = 'services.html';
+      cta.textContent = 'Explore Our Services';
+    }
+  }
+
   btnNext.addEventListener('click', () => {
     if (!validateStep(currentStep)) return;
     if (currentStep < totalSteps) {
@@ -175,6 +192,7 @@ if (leadForm) {
       showStep(currentStep);
     } else {
       submitLead();
+      updateSuccessCta();
       formBody.style.display = 'none';
       document.querySelector('.form-progress').style.display = 'none';
       document.querySelector('.form-step-label').style.display = 'none';
