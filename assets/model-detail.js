@@ -44,6 +44,9 @@
   document.getElementById('detailSource').innerHTML =
     `Source: <a href="${plan.src}" target="_blank" rel="noopener">mybarndoplans.com</a>`;
 
+  const ctaBtn = document.getElementById('detailCta');
+  if (ctaBtn) ctaBtn.textContent = 'Start a Conversation About ' + plan.name;
+
   const bedsLabel = plan.beds >= 5 ? plan.beds + '+' : plan.beds;
   const specs = [
     ['Living Area', plan.sqft.toLocaleString() + ' sf'],
