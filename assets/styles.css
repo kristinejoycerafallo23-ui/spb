@@ -404,6 +404,13 @@
 
   footer{background:var(--navy-deep); color:#B9C6CF; padding:64px 0 28px;}
   .footer-grid{display:grid; grid-template-columns:1.2fr 1fr 1fr 1fr 1fr; gap:32px;}
+  .social-row{display:flex; gap:14px; margin-top:18px;}
+  .social-row a{
+    width:34px; height:34px; border-radius:50%; border:1px solid rgba(255,255,255,.18);
+    display:flex; align-items:center; justify-content:center; color:#8CA0AD;
+    transition:color .15s ease, border-color .15s ease, background .15s ease;
+  }
+  .social-row a:hover{color:#fff; border-color:var(--brass); background:rgba(139,111,71,.15);}
   .footer-grid h5{color:#fff; font-size:14px; margin-bottom:16px; font-family:'Space Grotesk',sans-serif;}
   .footer-grid ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; font-size:13.5px;}
   .footer-grid ul a:hover{color:#fff;}
@@ -443,7 +450,49 @@
   .crumb-light a:hover{text-decoration:underline;}
 
   /* ---------- Model / plan detail cards (models page) ---------- */
-  .model-grid{display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-top:48px;}
+  .model-grid{display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-top:0;}
+  .model-grid-1{grid-template-columns:1fr; max-width:600px;}
+
+  /* Category navigation + section headings for the organized models list */
+  .cat-jump{
+    display:flex; flex-wrap:wrap; gap:10px; margin-top:32px; padding-bottom:28px;
+    border-bottom:1px solid var(--line);
+  }
+  .cat-jump a{
+    font-size:13px; font-weight:600; color:var(--navy);
+    border:1px solid var(--line); border-radius:999px; padding:9px 18px;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .cat-jump a:hover{border-color:var(--brass); background:var(--warm);}
+  .model-category{margin-top:56px; scroll-margin-top:100px;}
+  .cat-heading{margin-bottom:8px;}
+  .cat-heading h3{font-size:22px; color:var(--navy); margin-bottom:6px;}
+  .cat-heading p{font-size:14px; color:var(--muted);}
+
+  .feature-badges{display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 4px;}
+  .feature-badges span{
+    font-size:11px; font-weight:600; letter-spacing:.02em; text-transform:uppercase;
+    color:var(--brass); background:var(--warm); border:1px solid var(--line);
+    border-radius:4px; padding:4px 9px;
+  }
+
+  /* Filter bar for the models page */
+  .filter-bar{
+    display:flex; flex-wrap:wrap; gap:28px;
+    margin-top:32px; padding-bottom:28px; border-bottom:1px solid var(--line);
+  }
+  .filter-label{
+    display:block; font-size:11.5px; font-weight:700; letter-spacing:.05em;
+    text-transform:uppercase; color:var(--stone-dk); margin-bottom:10px;
+  }
+  .filter-row{display:flex; flex-wrap:wrap; gap:8px;}
+  .filter-empty{
+    margin-top:28px; padding:18px 20px; background:var(--warm); border:1px solid var(--line);
+    font-size:14px; color:var(--muted);
+  }
+  .filter-empty a{color:var(--navy); font-weight:600; text-decoration:underline;}
+  .model-category.filtered-hidden{display:none;}
+  .model-card.filtered-hidden{display:none;}
   .model-card{border:1px solid var(--line);}
   .model-card .photo{aspect-ratio:16/10;}
   .model-card-body{padding:26px;}
@@ -452,7 +501,8 @@
   .model-stats-row{display:flex; gap:22px; flex-wrap:wrap; margin-bottom:16px;}
   .model-stats-row span{font-size:12.5px; color:var(--muted);}
   .model-stats-row strong{display:block; font-family:'Space Grotesk',sans-serif; font-size:16px; color:var(--navy);}
-  .model-card-body .src-link{font-size:12px; color:var(--muted);}
+  .model-card-body .src-link{font-size:10.5px; color:#A8A196; margin-top:2px;}
+  .model-card-body .src-link a{color:#A8A196; text-decoration:underline;}
   .model-card-body .src-link a{color:var(--navy); text-decoration:underline; text-underline-offset:2px;}
   @media (max-width:800px){ .model-grid{grid-template-columns:1fr;} }
 
