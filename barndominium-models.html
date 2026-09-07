@@ -48,58 +48,198 @@
   <section>
     <div class="wrap">
       <div class="label">Reference Plans</div>
-      <h2 class="h-lg" style="margin-top:14px; max-width:20ch;">Two proven starting points.</h2>
-      <p class="lede" style="margin-top:16px;">These plans come from a third-party plan source and are not designed or owned by Saratoga Premier Builders. We use them as a starting point for design conversations, with modifications evaluated individually.</p>
+      <h2 class="h-lg" style="margin-top:14px; max-width:22ch;">Six proven starting points, organized by size.</h2>
+      <p class="lede" style="margin-top:16px;">These plans are built in partnership with mybarndoplans.com and serve as a starting point for design conversations, with modifications evaluated individually.</p>
 
-      <div class="model-grid">
-        <article class="model-card">
-          <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/legacy-barndominium-multigenerational-front-view-1024x613.jpg" alt="The Legacy barndominium front elevation with dual garages"></div>
-          <div class="model-card-body">
-            <div class="tag-ref">Reference Plan</div>
-            <h3>The Legacy</h3>
-            <div class="model-stats-row">
-              <span><strong>3,916 sf</strong>Living Area</span>
-              <span><strong>5</strong>Bedrooms</span>
-              <span><strong>4.5</strong>Bathrooms</span>
-              <span><strong>108'×80'</strong>Footprint</span>
-              <span><strong>4-car</strong>Garage</span>
-            </div>
-            <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A single-story, L-shaped multigenerational plan with an independent in-law suite, mudroom, office, family room and multiple covered outdoor areas.</p>
-            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
-              <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/kitchen-in-legacy-barndominium-floor-plan-1024x682.jpg" alt="Kitchen in the Legacy barndominium"></div>
-              <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/living-area-iin-home-with-in-law-suite-legacy-barndominium-1024x682.jpg" alt="Open living area in the Legacy barndominium"></div>
-              <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/floor-plan-layout-legacy-barndominium-multigenerational-1024x594.jpg" alt="The Legacy floor plan layout"></div>
-            </div>
-            <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-legacy-multigenerational-home-floor-plan/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Bedrooms</span>
+          <div class="filter-row">
+            <button class="filter-chip model-filter-chip active" data-filter-type="beds" data-filter="all">All</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="beds" data-filter="2">2</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="beds" data-filter="3">3</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="beds" data-filter="4">4</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="beds" data-filter="5">5+</button>
           </div>
-        </article>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Size</span>
+          <div class="filter-row">
+            <button class="filter-chip model-filter-chip active" data-filter-type="size" data-filter="all">All</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="size" data-filter="compact">Under 1,500 sf</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="size" data-filter="midsize">1,500–3,000 sf</button>
+            <button class="filter-chip model-filter-chip" data-filter-type="size" data-filter="large">3,500+ sf</button>
+          </div>
+        </div>
+      </div>
+      <p class="filter-empty" id="filterEmpty" style="display:none;">No plans match those filters yet — <a href="start-your-project.html">tell us what you're picturing</a> and we'll help find the right starting point.</p>
 
-        <article class="model-card">
-          <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-barndominium-front-elevation-white-1024x682.jpg" alt="The Generations barndominium front elevation in white"></div>
-          <div class="model-card-body">
-            <div class="tag-ref">Reference Plan</div>
-            <h3>The Generations</h3>
-            <div class="model-stats-row">
-              <span><strong>4,176 sf</strong>Living Area</span>
-              <span><strong>4</strong>Bedrooms</span>
-              <span><strong>4.5</strong>Bathrooms</span>
-              <span><strong>88'×88'</strong>Footprint</span>
-              <span><strong>3</strong>Garages</span>
+      <!-- ===== CATEGORY: COMPACT & EFFICIENT ===== -->
+      <div class="model-category" id="cat-compact">
+        <div class="cat-heading">
+          <h3>Compact &amp; Efficient</h3>
+          <p>Under 1,500 sq ft — smaller footprints built to live large.</p>
+        </div>
+        <div class="model-grid model-grid-1">
+          <article class="model-card" data-beds="2" data-size="compact">
+            <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/quinn-barndominium-exterior-rendering2-1024x646.jpg" alt="The Quinn barndominium exterior shown at dusk"></div>
+            <div class="model-card-body">
+              <div class="tag-ref">Reference Plan</div>
+              <h3>The Quinn</h3>
+              <div class="model-stats-row">
+                <span><strong>924 sf</strong>Living Area</span>
+                <span><strong>2</strong>Bedrooms</span>
+                <span><strong>2</strong>Bathrooms</span>
+                <span><strong>37'×26'</strong>Footprint</span>
+                <span><strong>Carport</strong>Parking</span>
+              </div>
+              <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A single-story plan under 1,000 sq ft that eliminates hallways to maximize usable space, with an extra-large master suite and 10-foot ceilings throughout.</p>
+              <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/living-area-quinn-barndominium-1024x688.jpg" alt="Living area in the Quinn barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/kitchen-area-quinn-barndominium-1024x688.jpg" alt="Kitchen in the Quinn barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/quinn-barndominium-base-layout-1024x508.jpg" alt="The Quinn floor plan layout"></div>
+              </div>
+              <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-quinn-barndominium-924-sq-ft-2-bedroom-2-bathroom/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
             </div>
-            <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A compact-footprint multigenerational plan with two full kitchens, an independent in-law suite, mudroom, office and covered outdoor living.</p>
-            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
-              <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-barndominium-front-elevation-dark-angle-1024x614.jpg" alt="Covered patio with outdoor fireplace"></div>
-              <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-barndominium-rear-elevation-dark-1024x645.jpg" alt="Charcoal exterior finish option"></div>
-              <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-floor-plan-with-seperate-in-law-suite-1-980x1024.jpg" alt="The Generations floor plan layout"></div>
+          </article>
+        </div>
+      </div>
+
+      <!-- ===== CATEGORY: MID-SIZE FAMILY ===== -->
+      <div class="model-category" id="cat-midsize">
+        <div class="cat-heading">
+          <h3>Mid-Size Family</h3>
+          <p>1,500–3,000 sq ft — room to grow, with space for a shop or office.</p>
+        </div>
+        <div class="model-grid">
+          <article class="model-card" data-beds="3" data-size="midsize">
+            <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/07/prairie-barndominium-floor-plan-front-of-home-white-siding-black-metal-roof-1024x582.jpg" alt="The Prairie barndominium front exterior in white siding"></div>
+            <div class="model-card-body">
+              <div class="tag-ref">Reference Plan</div>
+              <h3>The Prairie</h3>
+              <div class="model-stats-row">
+                <span><strong>2,163 sf</strong>Living Area</span>
+                <span><strong>3</strong>Bedrooms</span>
+                <span><strong>2.5</strong>Bathrooms</span>
+                <span><strong>84'×60'</strong>Footprint</span>
+                <span><strong>2-car</strong>Garage</span>
+              </div>
+              <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A traditional-feeling single-story plan with a bonus room above the garage, front and back porches, and an open kitchen built for gathering.</p>
+              <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/07/living-area-of-prairie-barndominium-1024x688.jpg" alt="Living area in the Prairie barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/07/kitchen-prairie-barndominium-1024x586.jpg" alt="Kitchen in the Prairie barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/07/2000-sq-foot-floor-plan-layout-downstairs-barndominium-1-1024x814.jpg" alt="The Prairie floor plan layout"></div>
+              </div>
+              <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-prairie-barndominium-floor-plan-2000-sq-ft-3-bedroom/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
             </div>
-            <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-generations-floor-plan/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
-          </div>
-        </article>
+          </article>
+
+          <article class="model-card" data-beds="3" data-size="midsize">
+            <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/anthem-barndominium-front-elevation-exterior-1024x646.jpg" alt="The Anthem barndominium front elevation, modern farmhouse design"></div>
+            <div class="model-card-body">
+              <div class="tag-ref">Reference Plan</div>
+              <h3>The Anthem</h3>
+              <div class="feature-badges"><span>Includes Shop</span><span>Home Office</span></div>
+              <div class="model-stats-row">
+                <span><strong>2,815 sf</strong>Living Area</span>
+                <span><strong>3</strong>Bedrooms</span>
+                <span><strong>3</strong>Bathrooms</span>
+                <span><strong>70'×50'</strong>Footprint</span>
+                <span><strong>3-car</strong>Garage</span>
+              </div>
+              <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A two-story plan with a wraparound porch, soaring ceilings, a large shop, and a home office that can convert to a 4th bedroom.</p>
+              <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/06/photo-living-area-anthem-barndominium-1024x688.jpg" alt="Living area in the Anthem barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/06/anthem-barndominium-inside-kitchen-1024x688.jpg" alt="Kitchen in the Anthem barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/06/anthem-3-bedroom-barndominium-downstairs-layout-1024x772.jpg" alt="The Anthem floor plan layout"></div>
+              </div>
+              <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-anthem-barndominium-2200-sq-ft-3br-2-5-bath-3-car-garage/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- ===== CATEGORY: LARGE & MULTI-GENERATIONAL ===== -->
+      <div class="model-category" id="cat-large">
+        <div class="cat-heading">
+          <h3>Large &amp; Multi-Generational</h3>
+          <p>3,500+ sq ft — in-law suites, kids' wings, and dual living spaces.</p>
+        </div>
+        <div class="model-grid">
+          <article class="model-card" data-beds="5" data-size="large">
+            <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/legacy-barndominium-multigenerational-front-view-1024x613.jpg" alt="The Legacy barndominium front elevation with dual garages"></div>
+            <div class="model-card-body">
+              <div class="tag-ref">Reference Plan</div>
+              <h3>The Legacy</h3>
+              <div class="feature-badges"><span>In-Law Suite</span></div>
+              <div class="model-stats-row">
+                <span><strong>3,916 sf</strong>Living Area</span>
+                <span><strong>5</strong>Bedrooms</span>
+                <span><strong>4.5</strong>Bathrooms</span>
+                <span><strong>108'×80'</strong>Footprint</span>
+                <span><strong>4-car</strong>Garage</span>
+              </div>
+              <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A single-story, L-shaped multigenerational plan with an independent in-law suite, mudroom, office, family room and multiple covered outdoor areas.</p>
+              <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/kitchen-in-legacy-barndominium-floor-plan-1024x682.jpg" alt="Kitchen in the Legacy barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/living-area-iin-home-with-in-law-suite-legacy-barndominium-1024x682.jpg" alt="Open living area in the Legacy barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/05/floor-plan-layout-legacy-barndominium-multigenerational-1024x594.jpg" alt="The Legacy floor plan layout"></div>
+              </div>
+              <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-legacy-multigenerational-home-floor-plan/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
+            </div>
+          </article>
+
+          <article class="model-card" data-beds="4" data-size="large">
+            <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-barndominium-front-elevation-white-1024x682.jpg" alt="The Generations barndominium front elevation in white"></div>
+            <div class="model-card-body">
+              <div class="tag-ref">Reference Plan</div>
+              <h3>The Generations</h3>
+              <div class="feature-badges"><span>In-Law Suite</span><span>Two Kitchens</span></div>
+              <div class="model-stats-row">
+                <span><strong>4,176 sf</strong>Living Area</span>
+                <span><strong>4</strong>Bedrooms</span>
+                <span><strong>4.5</strong>Bathrooms</span>
+                <span><strong>88'×88'</strong>Footprint</span>
+                <span><strong>3</strong>Garages</span>
+              </div>
+              <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A compact-footprint multigenerational plan with two full kitchens, an independent in-law suite, mudroom, office and covered outdoor living.</p>
+              <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-barndominium-front-elevation-dark-angle-1024x614.jpg" alt="Covered patio with outdoor fireplace"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-barndominium-rear-elevation-dark-1024x645.jpg" alt="Charcoal exterior finish option"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/06/generations-floor-plan-with-seperate-in-law-suite-1-980x1024.jpg" alt="The Generations floor plan layout"></div>
+              </div>
+              <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-generations-floor-plan/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
+            </div>
+          </article>
+
+          <article class="model-card" data-beds="5" data-size="large">
+            <div class="rphoto" style="aspect-ratio:16/10;"><img src="https://mybarndoplans.com/wp-content/uploads/2025/10/liberty-barndominium-front-exterior-5-bedroom-1024x613.jpg" alt="The Liberty barndominium front exterior"></div>
+            <div class="model-card-body">
+              <div class="tag-ref">Reference Plan</div>
+              <h3>The Liberty</h3>
+              <div class="feature-badges"><span>Includes Shop</span><span>Safe Room</span><span>Kids' Wing</span></div>
+              <div class="model-stats-row">
+                <span><strong>4,453 sf</strong>Living Area</span>
+                <span><strong>5</strong>Bedrooms</span>
+                <span><strong>3.5</strong>Bathrooms</span>
+                <span><strong>116'×52'</strong>Footprint</span>
+                <span><strong>2-car</strong>Garage</span>
+              </div>
+              <p style="font-size:13.5px; color:var(--muted); margin-bottom:14px;">A single-story plan built around a dedicated kids' wing with its own living area, plus a large workshop, safe room, and mudroom — ideal for families with teenagers or frequent guests.</p>
+              <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-bottom:14px;">
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/kitchen-liberty-barndominium-1024x689.jpg" alt="Kitchen in the Liberty barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/main-living-area-liberty-barndo-1024x688.jpg" alt="Main living area in the Liberty barndominium"></div>
+                <div class="rphoto" style="aspect-ratio:1;"><img src="https://mybarndoplans.com/wp-content/uploads/2023/08/liberty-barndominium-five-bedroom-floor-plan-layout-1024x582.jpg" alt="The Liberty floor plan layout"></div>
+              </div>
+              <p class="src-link">Source: <a href="https://mybarndoplans.com/floorplan/the-liberty-barndominium-floor-plan-5-br-with-saferoom-shop-4000-sq-feet/" target="_blank" rel="noopener">mybarndoplans.com</a></p>
+            </div>
+          </article>
+        </div>
       </div>
 
       <div style="margin-top:56px; padding:32px; background:var(--warm); border:1px solid var(--line);">
         <h3 style="font-size:19px; margin-bottom:12px;">Not seeing what you're picturing?</h3>
-        <p style="font-size:14.5px; color:var(--muted); max-width:70ch;">These two plans are a starting sample, not the full range of what's possible. Tell us about your property and vision, and we'll help identify the right starting point — or talk through a fully custom direction.</p>
+        <p style="font-size:14.5px; color:var(--muted); max-width:70ch;">These six plans are a starting sample, not the full range of what's possible. Tell us about your property and vision, and we'll help identify the right starting point — or talk through a fully custom direction.</p>
         <a href="start-your-project.html" class="btn btn-primary" style="margin-top:22px;">Start Your Project</a>
       </div>
     </div>
@@ -121,6 +261,14 @@
       <div>
         <h5>Saratoga Premier Builders</h5>
         <p style="font-size:13px; max-width:32ch; color:#8CA0AD;">Custom barndominiums, masonry, metal-framed buildings, renovations, HVAC and aircraft cleaning — serving New York's Capital Region.</p>
+        <div class="social-row">
+          <a href="https://www.facebook.com/share/1CmLaSiEL7/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Saratoga Premier Builders on Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5 3.66 9.14 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.89h2.78l-.44 2.91h-2.34V22c4.78-.8 8.44-4.94 8.44-9.94z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/saratogapremierbuildersllc?stkn=aGRqMHg1M2Jramxn" target="_blank" rel="noopener" aria-label="Saratoga Premier Builders on Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-2.72 0-3.06.01-4.13.06-1.06.05-1.79.22-2.43.47-.66.26-1.22.6-1.77 1.16-.56.55-.9 1.11-1.16 1.77-.25.64-.42 1.37-.47 2.43C2.01 8.94 2 9.28 2 12s.01 3.06.06 4.13c.05 1.06.22 1.79.47 2.43.26.66.6 1.22 1.16 1.77.55.56 1.11.9 1.77 1.16.64.25 1.37.42 2.43.47C8.94 21.99 9.28 22 12 22s3.06-.01 4.13-.06c1.06-.05 1.79-.22 2.43-.47.66-.26 1.22-.6 1.77-1.16.56-.55.9-1.11 1.16-1.77.25-.64.42-1.37.47-2.43.05-1.07.06-1.41.06-4.13s-.01-3.06-.06-4.13c-.05-1.06-.22-1.79-.47-2.43-.26-.66-.6-1.22-1.16-1.77-.55-.56-1.11-.9-1.77-1.16-.64-.25-1.37-.42-2.43-.47C15.06 2.01 14.72 2 12 2zm0 1.8c2.67 0 2.99.01 4.04.06.98.04 1.51.21 1.86.35.47.18.8.4 1.15.75.35.35.57.68.75 1.15.14.35.31.88.35 1.86.05 1.05.06 1.37.06 4.04s-.01 2.99-.06 4.04c-.04.98-.21 1.51-.35 1.86-.18.47-.4.8-.75 1.15-.35.35-.68.57-1.15.75-.35.14-.88.31-1.86.35-1.05.05-1.37.06-4.04.06s-2.99-.01-4.04-.06c-.98-.04-1.51-.21-1.86-.35-.47-.18-.8-.4-1.15-.75-.35-.35-.57-.68-.75-1.15-.14-.35-.31-.88-.35-1.86C3.81 14.99 3.8 14.67 3.8 12s.01-2.99.06-4.04c.04-.98.21-1.51.35-1.86.18-.47.4-.8.75-1.15.35-.35.68-.57 1.15-.75.35-.14.88-.31 1.86-.35C9.01 3.81 9.33 3.8 12 3.8zm0 3.05a5.15 5.15 0 100 10.3 5.15 5.15 0 000-10.3zm0 8.5a3.35 3.35 0 110-6.7 3.35 3.35 0 010 6.7zm5.35-8.7a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"/></svg>
+          </a>
+        </div>
       </div>
       <div>
         <h5>Capabilities</h5>
