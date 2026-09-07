@@ -82,6 +82,30 @@ if (leadForm) {
   const formBody = document.getElementById('formBody');
   const successPanel = document.getElementById('successPanel');
 
+  // Sends every submission straight to Kristine and Sales via Google Apps Script (MailApp).
+  // mode: 'no-cors' means we can't read the response, but the email still sends —
+  // Apps Script just doesn't return CORS headers.
+  const LEAD_ENDPOINT = "https://script.google.com/macros/s/AKfycbwSR2cSvNxr28RGlV1PnF3qlg5-CERwh0by6F9wFSu0vCNAcwCKMbBGyagG3pdRnQ/exec";
+
+  function collectFormData() {
+    const fd = new FormData(leadForm);
+    const data = { interest: fd.getAll('interest') };
+    ['ownership','location','lotSize','size','style','features','timeline','budget','firstName','lastName','email','phone','notes'].forEach(key => {
+      data[key] = fd.get(key) || '';
+    });
+    return data;
+  }
+
+  function submitLead() {
+    const data = collectFormData();
+    fetch(LEAD_ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(data)
+    }).catch(err => console.error('Lead submission failed:', err));
+  }
+
   function updateProgress() {
     document.querySelectorAll('.form-progress .dot').forEach(dot => {
       const n = parseInt(dot.dataset.dot, 10);
@@ -113,6 +137,7 @@ if (leadForm) {
       currentStep++;
       showStep(currentStep);
     } else {
+      submitLead();
       formBody.style.display = 'none';
       document.querySelector('.form-progress').style.display = 'none';
       document.querySelector('.form-step-label').style.display = 'none';
@@ -125,6 +150,7 @@ if (leadForm) {
   btnBack.addEventListener('click', () => {
     if (currentStep > 1) { currentStep--; showStep(currentStep); }
   });
+
 
   showStep(1);
 }
