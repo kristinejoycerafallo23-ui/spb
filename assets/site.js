@@ -6,6 +6,15 @@ if (header) {
   });
 }
 
+// Sticky mobile CTA — only appears after scrolling past the first screen,
+// so it never overlaps the hero's own CTA button on initial load.
+const stickyMobile = document.querySelector('.sticky-mobile');
+if (stickyMobile) {
+  window.addEventListener('scroll', () => {
+    stickyMobile.classList.toggle('visible', window.scrollY > window.innerHeight * 0.6);
+  });
+}
+
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const mainNav = document.getElementById('mainNav');
