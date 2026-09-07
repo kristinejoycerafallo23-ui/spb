@@ -395,7 +395,7 @@
   @media (max-width:560px){ .opt-grid, .row2{grid-template-columns:1fr;} }
 
   /* ---------- Final CTA & Footer ---------- */
-  .final-cta{text-align:center;}
+  .final-cta{text-align:center; background:var(--navy);}
   .final-cta h2{color:#fff; font-size:clamp(32px,5vw,54px);}
   .final-cta p{color:#D7E2EA; margin:20px auto 0; max-width:52ch;}
   .final-cta .btn-primary{margin-top:32px;}
