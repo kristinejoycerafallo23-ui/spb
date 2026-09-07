@@ -61,6 +61,43 @@ document.querySelectorAll('.filter-chip').forEach(chip => {
   });
 });
 
+// Barndominium model filter (bedrooms + size) — Models page
+const modelFilterChips = document.querySelectorAll('.model-filter-chip');
+if (modelFilterChips.length) {
+  const activeFilters = { beds: 'all', size: 'all' };
+
+  function applyModelFilters() {
+    let anyVisible = false;
+
+    document.querySelectorAll('.model-category').forEach(category => {
+      let categoryHasVisibleCard = false;
+
+      category.querySelectorAll('.model-card').forEach(card => {
+        const bedsMatch = activeFilters.beds === 'all' || card.dataset.beds === activeFilters.beds;
+        const sizeMatch = activeFilters.size === 'all' || card.dataset.size === activeFilters.size;
+        const show = bedsMatch && sizeMatch;
+        card.classList.toggle('filtered-hidden', !show);
+        if (show) { categoryHasVisibleCard = true; anyVisible = true; }
+      });
+
+      category.classList.toggle('filtered-hidden', !categoryHasVisibleCard);
+    });
+
+    const emptyMsg = document.getElementById('filterEmpty');
+    if (emptyMsg) emptyMsg.style.display = anyVisible ? 'none' : 'block';
+  }
+
+  modelFilterChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const type = chip.dataset.filterType;
+      document.querySelectorAll(`.model-filter-chip[data-filter-type="${type}"]`).forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilters[type] = chip.dataset.filter;
+      applyModelFilters();
+    });
+  });
+}
+
 // Checkbox/radio visual state
 document.querySelectorAll('.opt input').forEach(input => {
   input.addEventListener('change', () => {
