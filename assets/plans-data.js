@@ -115,7 +115,12 @@ const BARNDO_PLANS = [
     "foot": "80'\u00d748'",
     "desc": "A one-story adaptation of The Anthem with the second floor removed, featuring a large master bedroom and home office.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/06/1776-barndominium-front-elevation.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/11/1776-barndominium-2-bedroom-3d-rendering-front-left-of-home-plan-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/11/1776-barndominium-floor-plan-2-bedroom-3d-rendering-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/11/1776-barndominium-floor-plan-2-bedroom-3d-rendering-front-of-home-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/11/1776-2-bedroom-2-bathroom-floor-plan-layout-1024x736.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/11/1776-single-story-barndominium-inside-design-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/11/barndominium-design-concept-for-kitchn-1024x688.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-1776-barndominium-two-bedroom-two-bath-with-flex-room/",
     "badges": [
