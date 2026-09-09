@@ -79,7 +79,12 @@ const BARNDO_PLANS = [
     "foot": "50'\u00d736'",
     "desc": "A single-story 3-bedroom plan with a 20-foot back patio, designed for efficient, economical construction.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/08/balooo-3-br-barndominium-plan.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/balooo-3-br-barndominium-plan-1024x680.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/3-br-baloo-barndominium-home-plan-attainable-design-1024x938.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/balooo-3-br-barndominium-plan-front-elevation-brown-1024x612.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/baloo-1800-sq-ft-3-br-2ba-barndominium-black-siding-back-view-with-porch-1024x595.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/baloo-barndominium-kitchen-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/baloo-barndominium-front-room-1024x688.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/baloo-1800-sq-ft-barndominium-floor-plan/",
     "badges": [],
@@ -96,7 +101,12 @@ const BARNDO_PLANS = [
     "foot": "51'\u00d784'",
     "desc": "A single-story modern design with a 3-car garage/shop combo, blending contemporary style with an open floor plan.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/09/featured-image-3br-modern-barndo-floor-plan.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/09/featured-image-3br-modern-barndo-floor-plan-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/09/modern-a-floor-plan-3br-2-bath-half-bath-modern-design-1024x616.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/09/modern-a-walkway-entry-modern-home-exterior-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/09/modern-a-barndominium-living-area-interior-photo-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/09/court-yard-photo-modern-a-barndominium-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/09/mster-bedroom-photo-inside-modern-a-barndominium-1024x688.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/modern-barndominium-floor-plan-design-1800-sq-ft-with-3br/",
     "badges": [
@@ -161,7 +171,12 @@ const BARNDO_PLANS = [
     "foot": "72'\u00d780'",
     "desc": "A single-story ranch plan built for comfort, efficiency, and everyday living, with a covered back porch.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-barndominium-3-br-2200-sq-ft-ranch-home-plan-6.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-barndominium-3-br-2200-sq-ft-ranch-home-plan-6-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-3-br-barndominium-floor-plan-1024x803.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-barndominium-floor-plan-interior-living-2-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-barndominium-floor-plan-interior-kitchen-1-1024x653.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-barndominium-floor-plan-interior-dining-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/12/stonecreek-barndominium-3-br-2200-sq-ft-ranch-home-plan-7-1024x604.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/stonecreek-ranch-barndominium-3br-ranch-plan/",
     "badges": [],
@@ -178,7 +193,12 @@ const BARNDO_PLANS = [
     "foot": "82'6\"\u00d740'",
     "desc": "A one-story plan combining a cool modern aesthetic with barndominium functionality and dramatic ceilings.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2024/10/3br-barndominium-patriot-ranch-featured-image.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/3br-barndominium-patriot-ranch-featured-image.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/3-bedroom-patriot-ranch-barndominium-floor-plan-front-of-home-rendering-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/3-bedroom-patriot-ranch-barndominium-floor-plan-rendering-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/patriot-ranch-3d-rendring-photo-barndominium-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/patriot-ranch-barndominium-interior-rendering-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/2d-floor-plan-patriot-ranch-1024x585.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/patriot-ranch-barndominium/",
     "badges": [],
@@ -195,7 +215,12 @@ const BARNDO_PLANS = [
     "foot": "100'\u00d740'",
     "desc": "A single-story modern plan with a wraparound porch, black-trim windows, and an oversized 3-car garage and shop.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2025/06/arcadia-barndominium-angled-wraparound-porch.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2025/06/arcadia-barndominium-angled-wraparound-porch-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/06/arcadia-barndominium-open-layout-kitchen-living-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/06/arcadia-barndominium-kitchen-large-island-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/06/arcadia-barndominium-living-room-fireplace-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/large-open-ceiling-bedroom-in-the-arcadia-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/06/arcadia-barndominium-front-elevation-1024x656.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/arcadia-barndominium-floor-plan-4-br-2-ba-1-half-bath/",
     "badges": [
@@ -214,7 +239,12 @@ const BARNDO_PLANS = [
     "foot": "82'\u00d752'",
     "desc": "A two-story plan designed with three bedrooms and three bathrooms, built for a client who wanted a versatile, livable layout.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2024/10/view-of-harmony-barndominium-wrap-around-porch.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/view-of-harmony-barndominium-wrap-around-porch-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/front-view-of-harmony-barndominium-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/kitchen-dining-area-harmony-barndo-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/kitchen-island-of-harmony-barndominium-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/living-dining-area-of-harmony-barndominium-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2024/10/back-porch-view-of-harmony-barndominium-1024x683.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/harmony-barndominium-floor-plan/",
     "badges": [],
@@ -231,7 +261,12 @@ const BARNDO_PLANS = [
     "foot": "56'\u00d748'",
     "desc": "A unique single-story design with a loft and a large covered porch on the back of the home.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/06/dove-barndominium-front-left-3d-rendering.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/dove-barndominium-front-left-3d-rendering-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/dove-barndominium-1-1024x554.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/dove-barndominium-5-1024x631.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/interior-photo-dove-barndominium-looking-to-kitchen-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/dove-barndominium-master-bedroom-photo-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/dove-barndominium-loft-rendering-1024x688.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-dove-barndominium-3br-2-5ba-loft/",
     "badges": [
@@ -275,7 +310,12 @@ const BARNDO_PLANS = [
     "foot": "90'\u00d732'",
     "desc": "A two-story plan with a gathering kitchen, office and loft, plus a 3-car garage large enough for an RV.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/06/magnolia-barndominium-white-siding-black-roof-front-porch-1.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/magnolia-barndominium-white-siding-black-roof-front-porch-1-1024x514.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/front-porch-of-magnolia-barndominium-3-br-office-wrap-around-porch-1-1024x536.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/front-room-blue-magnolia-barndominium-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/living-room-blue-magnolia-barndominium-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/kitchen-blue-magnolia-barndominium-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/dininig-room-blue-magnolia-barndominium-1024x688.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/blue-magnolia-barndominium/",
     "badges": [
@@ -295,7 +335,12 @@ const BARNDO_PLANS = [
     "foot": "80'\u00d740'",
     "desc": "A two-story plan with a large garage/shop and RV bay, built around an open-concept layout.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/07/4-br-barndominium-the-austin-rv-parking-metal-siding.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/4-br-barndominium-the-austin-rv-parking-metal-siding-1024x710.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/4-br-barndominium-the-austin-wrap-around-porch-metal-siding-2-1024x589.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/4-br-barndominium-the-austin-rv-parking-metal-siding-2-1024x522.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/4-br-barndominium-the-austin-back-of-barndo-metal-siding-2-1024x573.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/4-br-barndominium-the-austin-rv-parking-red-metal-siding-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/austin-floor-plan-1024x694.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/3000-sq-ft-barndominium-home-austin/",
     "badges": [
@@ -315,7 +360,12 @@ const BARNDO_PLANS = [
     "foot": "56'\u00d748'",
     "desc": "A two-story plan with a loft and porches on both the front and back of the home.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/07/heartland-barndominium-4-bedroom-3-bath-blue-color-rendering-feature.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/heartland-barndominium-4-bedroom-3-bath-blue-color-rendering-feature.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/barndominium-plan-4-bedroom-3000-sq-feet-heartland-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/heartland-barndominium-4-bedroom-3-bath-exterior-in-white-siding-1080-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/heartland-back-yard-with-fire-pit-1024x576.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/3d-rendering-picture-kitchen-barndomiinum-heartland.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/07/Heartland-Barndominium-Interior-3D-Rendering-Living-Area.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-heartland-3000-sq-ft-barndominium-floor-plan-with-loft/",
     "badges": [
@@ -334,7 +384,12 @@ const BARNDO_PLANS = [
     "foot": "67'\u00d752'",
     "desc": "A two-story plan with three full bathrooms, a large garage, and a wraparound porch.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/06/reardon-4-br-barndominium-4.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/reardon-4-br-barndominium-4-1024x535.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/reardon-4-br-barndominium-white-siding-dark-metal-roof-1024x626.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/the-reardon-barndominium-floor-plan-3000-sq-feet-front-right-view-1024x681.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/the-reardon-barndo-floor-plan-3000-sq-feet-front-view-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/the-reardon-bardominium-3000-sq-feet-view-from-back-of-barndo-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/first-floor-layout-of-reardon-barndominium-1024x675.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-reardon-barndo-plan-3126-sq-feet-under-air/",
     "badges": [],
@@ -351,7 +406,12 @@ const BARNDO_PLANS = [
     "foot": "60'\u00d740'",
     "desc": "A unique 40\u00d760 plan combining charm and functionality, with a loft and a dedicated game room.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/06/texas-retreat-barndominium-plan-rendering-front-side-of-home.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/texas-retreat-barndominium-plan-rendering-front-side-of-home-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/texas-retreat-barndominium-plan-rendering-view-wrap-around-porch-1024x609.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/texas-retreat-barndominium-plan-rendering-back-side-of-home-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/texas-retreat-barndo-kitchen-photo-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/texas-retreat-barndo-living-area-photo-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/upstairs-loft-playroom-texas-retreat-1024x682.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-texas-retreat-barndominium-floor-plan/",
     "badges": [
@@ -394,7 +454,12 @@ const BARNDO_PLANS = [
     "foot": "60'\u00d740'",
     "desc": "A very livable two-story plan with an office, designed as a unique 60\u00d740 barndominium home.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/08/front-left-side-floor-plan-barndominium-the-breeeze.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/front-left-side-floor-plan-barndominium-the-breeeze-1024x683.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/front-floor-plan-breeze-barndominium-rendering-2-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/back-of-breeze-barndominium-floor-plan-3d-rendering-2-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/breeze-barndominium-kitchen-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/breeze-barndominium-living-room-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/08/breeze-barndominium-master-bedroom-1024x688.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-breeze-barndominium-3500-sq-ft-5br-3-5-bath-office/",
     "badges": [
@@ -434,7 +499,12 @@ const BARNDO_PLANS = [
     "foot": "90'\u00d770'",
     "desc": "A four-bedroom plan with a large shop, perfect for a special retreat to house the whole crew.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2023/06/featured-image-summit-four-bedroom-barndominium.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/featured-image-summit-four-bedroom-barndominium.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/front-of-summit-barndominium-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/05/kitchen-idea-for-summit-barndominium-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/05/living-area-in-summit-barndominium-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2025/05/master-bedroom-summit-barndominium-1024x682.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2023/06/summit-barndominium-rear-wraparound-porch-1024x619.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/the-summit-barndominium-4-br-3-bath-with-shop-4000-sq-ft/",
     "badges": [
@@ -453,7 +523,12 @@ const BARNDO_PLANS = [
     "foot": "111'\u00d751'",
     "desc": "A two-story plan with 4 bedrooms in the main home plus a 1-bedroom attached apartment, ideal for multigenerational living.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2026/01/featured-homestead-barndominium-with-apartment-wrap-around-porch-black1.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2026/01/featured-homestead-barndominium-with-apartment-wrap-around-porch-black1-1024x607.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/01/homestead-barndominium-with-apartment-wrap-around-porch-black2-1-1024x573.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/01/homestead-barndominium-with-apartment-wrap-around-porch3-1-1024x556.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/01/homestead-barndominium-with-apartment-2-1-1024x563.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/01/homestead-barndominium-with-apartment-1-1-1024x589.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/01/homestead-barndominium-floor-plan-layout-first-floor-1-1024x694.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/homestead-barndominium/",
     "badges": [
@@ -520,7 +595,12 @@ const BARNDO_PLANS = [
     "foot": "110'\u00d750'",
     "desc": "A two-story plan designed for homeowners who want a large shop, open living space, and practical everyday functionality.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-rendering-table-rock-2.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-rendering-table-rock-2-1024x564.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-rendering-table-rock-6-1024x663.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-rendering-table-rock-1-1024x624.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-interior-table-rock-3-1024x613.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-interior-table-rock-1-1024x688.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/4-br-large-shop-barndominium-plan-interior-table-rock-2-1024x727.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/table-rock-barndominium/",
     "badges": [
@@ -539,7 +619,12 @@ const BARNDO_PLANS = [
     "foot": "40'\u00d778'",
     "desc": "A two-story plan featuring a large bunk room, a second-floor balcony, and a high-contrast exterior design.",
     "photos": [
-      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-with-bunk-house-the-lake-house-4.jpg"
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-with-bunk-house-the-lake-house-4-1024x670.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-with-bunk-house-the-lake-house-6-1024x717.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-with-bunk-house-the-lake-house-1-1024x669.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-with-bunk-house-the-lake-house-8-1024x717.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-with-bunk-house-the-lake-house-11-1024x817.jpg",
+      "https://mybarndoplans.com/wp-content/uploads/2026/03/5-br-barndominium-plan-with-bunk-house-the-lake-house-floor-plan-1-1024x667.jpg"
     ],
     "src": "https://mybarndoplans.com/floorplan/5-br-barndominium-plan-bunk-room-2nd-floor-patio/",
     "badges": [
